@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <h1>
+      <center>
+        <p><img src="whatmusic.png" /></p>
+      </center>
+    </h1>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>연주중</title>
-    <link rel="stylesheet" href="// 여기 대충 연결할 css" />
+    <link rel="stylesheet" href="mainPageStyle.css" />
   </head>
   <body>
-    <section>
-      <img
-        src="drumPageUI.png"
-        style="margin-left: auto; margin-right: auto; display: block"
-      />
-    </section>
-
-    <audio data-key="65" src="sound/1.mp3"></audio>
-    <audio data-key="83" src="sound/2.mp3"></audio>
-    <audio data-key="68" src="sound/3.mp3"></audio>
-    <audio data-key="70" src="sound/4.mp3"></audio>
-    <audio data-key="71" src="sound/5.mp3"></audio>
-    <audio data-key="72" src="sound/6.mp3"></audio>
-    <audio data-key="74" src="sound/7.mp3"></audio>
-    <audio data-key="75" src="sound/8.mp3"></audio>
-    <audio data-key="76" src="sound/9.mp3"></audio>
-    <audio data-key="186" src="sound/10.mp3"></audio>
-    <audio data-key="222" src="sound/11.mp3"></audio>
+    <body background="drum.png">
+      <img src="keyboard.png" />
+      <style>
+        div {
+          width: 100px;
+          height: 100px;
+        }
+      </style>
+    </body>
+    <audio data-key="65" src="sound/crash.wav"></audio>
+    <audio data-key="83" src="sound/12inchtom.wav"></audio>
+    <audio data-key="68" src="sound/13inchtom.wav"></audio>
+    <audio data-key="70" src="sound/ride.wav"></audio>
+    <audio data-key="74" src="sound/hihat.wav"></audio>
+    <audio data-key="75" src="sound/snare.wav"></audio>
+    <audio data-key="32" src="sound/bass.wav"></audio>
+    <audio data-key="76" src="sound/floortom.wav"></audio>
     <script src="main.js"></script>
   </body>
 </html>
