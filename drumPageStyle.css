@@ -1,6 +1,157 @@
-body {
-  height: 100vh;
-  background-image: url("drum.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+body{
+  /* width: 100%;
+  height: 100%;
+  margin: 0; */
+  justify-content: center;
 }
+
+/* container starts */
+.topContainer {
+  position: relative;
+  padding-top: 10rem;
+  display: flex;
+  
+}
+.middleTopContainer {
+  position: relative;
+  top: -17rem;
+  padding-left: 35rem;
+  display: flex;
+}
+.middleDownContainer {
+  display: flex;
+  position: relative;
+  top: -43rem;
+}
+.downContainer {
+  display: flex;
+  position: relative;
+  top: -53rem;
+}
+
+/* drum components starts */
+.crash {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  width: auto;
+}
+.musicBar{
+  padding-top: 15rem;
+  padding-right: 3rem;
+  width: auto;
+}
+.ride {
+  padding-top: 10rem;
+  padding-right: 10rem;
+  width: auto;
+}
+/* .smallTom {
+  padding-right: 0;
+}
+.middleTom{
+
+} */
+.hi-hat{
+  z-index: 3;
+}
+.snare {
+  z-index: 2;
+  padding-top: 20rem;
+  margin-left: -10rem;
+}
+.bass{
+  z-index: 1;
+  padding-top: 22rem;
+  margin-left: -2rem;
+}
+.floorTom{
+  z-index: 2;
+  padding-top: 15rem;
+  margin-left: -3rem;    
+}
+
+
+/* text starts */
+.text {
+  text-align: center;
+}
+
+
+/* background animation */
+
+
+
+/* liquid button animation starts */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #0c0c0c;
+}
+
+a {
+  position: relative;
+  padding: 20px 50px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 50px;
+}    
+
+a span {
+  position: relative;
+  left: 0;
+  top: -80px;
+  width: 200px;
+  height: 200px;
+  background: #4973ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+  transition: .5s;
+}
+
+a .liquid::after,
+a .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #000;
+}
+
+a .liquid::before {
+  border-radius: 45%;
+  background: rgba(20, 20, 20, 1);
+  animation: animate 5s linear infinite;
+}
+
+a .liquid::after {
+  border-radius: 40%;
+  background: rgba(20, 20, 20, .5);
+  animation: animate 10s linear infinite;
+}
+
+a:hober .liquid {
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+      transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+      transform: translate(-50%, -75%) rotate(360deg);
+  }
+} */
